@@ -23,7 +23,7 @@ h1 {
 .container {
   padding-top: 50px;
   margin: auto;
-  height: calc(100vh - 110px);
+  min-height: calc(100vh - 110px);
   background-color: RGB(237, 237, 237);
 }
 
@@ -138,3 +138,13 @@ span {
   width: 80%;
   margin: auto;
 }
+
+.break{
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  background-color:rgba(128, 128, 128, 0.504);
+  height: 2px;
+}
+
+
